@@ -29,7 +29,7 @@ const ALL_ITEMS_QUERY = gql`
   }
 `;
 
-export default class Items extends Component {
+class Items extends Component {
   render() {
     return (
       <Center>
@@ -50,3 +50,6 @@ export default class Items extends Component {
     );
   }
 }
+
+export default Items;
+export { ALL_ITEMS_QUERY };

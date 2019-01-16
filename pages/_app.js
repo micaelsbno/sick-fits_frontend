@@ -4,6 +4,7 @@ import Page from '../components/Page';
 import withData from '../lib/withData';
 
 class MyApp extends App {
+  // this is the server-side rendering setup
   static async getInitialProps({ Component, ctx }) {
     let pageProps = {};
     if (Component.getInitialProps) {
